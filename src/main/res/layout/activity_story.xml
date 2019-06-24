@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.manoj.bhat.oth.Story">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The great wall has been demolished by white walkers. They are about to attack the human race to take over the iron throne. Night watches inform jhon snow about this. The Starks and targerians are now allies. But lanisters are enemies with Starks and targerians. \nThe mother of dragon has now lost both of her dragons. With the help of her allies Dothrakis, Unsullied,Grey joy's she has to find her first her first dragon.. And with the help of Drone,Tyrells and Starks she has to find her second dragon.\nWith the help of these dragons, the mother of dragons wages a war against lanisters. She looses a dragon and a few strong soldiers. With the help of Tyrian lanister and Sam tully she comes to know about the death world, where they could get their dead dragon and soldier back.. \nWith help of huge army and two dragons she will fight with white walkers (The great war).."
+            android:textSize="18sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:background="@color/secondaryLightColor"
+        android:onClick="cont"
+        android:text="continue"
+        android:textColor="@color/secondaryTextColor" />
+
+
+</LinearLayout>

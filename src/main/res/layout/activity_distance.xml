@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.manoj.bhat.oth.Distance">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/circle_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Loading..."
+        android:textColor="@color/primaryLightColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="Distance from checkpoint"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pqr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter the key here"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/secondaryLightColor"
+        android:text="SUBMIT"
+        android:onClick="subkey"
+        android:textColor="@color/secondaryTextColor"
+        android:visibility="gone" />
+</LinearLayout>
